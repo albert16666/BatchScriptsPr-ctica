@@ -1,0 +1,151 @@
+@echo off
+PRÁCTICA 2.2.1
+C:\>cd apli/excel/tablas
+C:\apli\excel\tablas
+
+C:\apli\excel\tablas>cd..
+C:\apli\excel>cd..
+C:\apli>cd..
+C:\>
+
+C:\prog>dir
+
+C:\>rd prog\pascal
+
+C:\>rd prog\info
+
+C:\varios>
+
+C:\varios>md apli\word\pract
+
+C:\apli\word\pract>dir..\ ..\excel
+
+C:\tablas
+
+C:\apli\excel\tablas>dir
+
+C:\apli>mkdir ..\varios\agenda
+
+C:\apli>rd /s excel
+
+C:\>rd  pract\Apellidos 1 y Apellidos 2
+
+C:\>cd raíz
+
+C:\apli>cd
+
+C:\>MD NUEVO
+
+C:\>CD NUEVO
+
+C:\NUEVO>
+
+C:    \APLI>CD   /s Alberto.txt
+
+C: dir\pract
+
+C:\>cd apli\word\pract
+
+C:\apli\word\pract>dir . .
+
+PRÁCTICA 2.2.2
+
+C:\> New-Item C:\APLI\WORD\TEXTOS\EJER.TXT
+
+C:\APLI\WORD\TEXTOS
+
+C:\> Set-Content   -Value
+
+C:\> cat C:\APLI\WORD\TEXTOS\EJER.TXT
+
+C:\> cp  C:\APLI\WORD\TEXTOS\EJER.TXT C:\VARIOS\AGENDA\
+
+C:\> rm  C:\APLI\WORD\TEXTOS\EJER.TXT
+
+C:\>  notepad C:\VARIOS\AGENDA\EJER.TXT
+
+C:\> cp C:\VARIOS\AGENDA\EJER.TXT C:\PROG\BASIC
+
+C:\> rcn C:\VARIOS\AGENDA\EJER.TXT FICHERO.TXT
+
+C:\> Move-Item C:\VARIOS\AGENDA\FICHERO .TXT C:\PROG\BASIC\
+
+C:\> cd C:\PROG\BASIC\
+
+C:\PROG\BASIC> notepad  .\EJER.TXT
+
+C:\PROG\BASIC> ren  .\EJER.  TXT NUEVO.TXT
+
+C:\> Move-Item  C:\PROG\PRACT
+
+C:\> cp C:\PROG\BASIC\EJER.TXT C:\APLI\WORD\NOTAS
+
+C:\> cp C:\PROG\BASIC\LIST.TXT C:\APLI\WORD\NOTAS
+
+C:\> cp C:\PROG\BASIC\FILE.TXT C:\APLI\WORD\NOTAS
+
+C:\> dir C:\PROG\BASIC
+
+PRÁCTICA 2.2.3
+
+C:\> rd access  /s/q
+
+C:\> mkdir astro
+
+C:\> apli\astro\historia
+
+C:\apli\astro\historia\datos1>edit tycho.txt
+
+C:\apli\astro\historia\datos1>tycho.txt
+
+C:\>copy kepler.txt  .. \.. \ciencia
+
+C:\>copy tycho.txt   ..  \.. \ciencia
+
+C:\>move tycho.txt ..  \datos2
+
+C:\>move kepler.txt ..  \datos1
+
+C:\>type kepler.txt   >>  ..\total.txt
+
+C:\>type tycho.txt    >>  ..\total.txt
+
+C:\apli\astro\ciencia\kepler.txt
+
+C:\apli\astro\ciencia>rename kepler.txt galileo.txt
+
+PRÁCTICA 2.2.4
+
+C:\>md tecinfo
+
+C:\>copy con hard .txt
+
+C:\>copy con soft .txt
+
+C:\tecinfo>move  c:\benito1\apli
+
+C:\tecinfo\hard.txt
+
+C:\tecinfo\soft.txt
+
+C:\> cp .\HARD.TXT  .\SOFT.TXT  C:\VARIOS
+
+C:\>rd tecinfo
+
+C:\Benito1\apli>copy  c:\benito1\varios
+
+hard.txt
+
+soft.txt
+
+C:\>cd apli
+
+C:\APLI>echo.>WINRAR.TXT
+
+C:\APLI>echo.>WORD.TXT
+
+C:\APLI>echo.>EXCEL.TXT
+
+C:\APLI>rename doc
+
+C:\Benito1\apli>dir
